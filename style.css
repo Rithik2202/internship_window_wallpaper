@@ -1,0 +1,45 @@
+body{
+    background-image: url("sp1.jpg");
+    background-size:cover;
+    overflow: hidden;
+}
+.taskbar{
+    background-color:#F3F3F3;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 110px;
+    width: 100%;
+    bottom: 0;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+.startmenu{
+    position: absolute;
+    text-align: center;
+    bottom:-600px;
+    width: 100%;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 10px;
+}
+.left{
+    justify-self: flex-end;
+    position: absolute;
+    left: 0;
+    margin: 6px 0;
+    height: 90%;
+}
+.a1{
+    border-radius: 50%;
+}
+.icons{
+    color: white;
+}
